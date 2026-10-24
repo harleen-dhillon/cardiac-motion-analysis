@@ -47,6 +47,27 @@ Motion analysis for Patient 015, slice 2:
 
 Generated figures and CSV files are stored in `results/`.
 
+## Visual Results
+
+### 1. Cardiac MRI Labels
+![Cardiac MRI Labels](results/cardiac_labels.png)
+
+### 2. ED and ES Phase Comparison
+![ED and ES Comparison](results/ed_es_comparison.png)
+
+### 3. Affine STN Alignment
+![Affine STN Alignment](results/stn_ed_es_alignment.png)
+
+### 4. Deformable STN Alignment
+![Deformable STN Alignment](results/deformable_stn_alignment.png)
+
+### 5. MedSAM Segmentation
+![MedSAM Segmentation](results/medsam_patient015_ed.png)
+
+### 6. Cardiac Motion Analysis
+![Cardiac Motion Analysis](results/cardiac_motion_analysis.png)
+
+
 ## Limitations
 
 This is an educational project, not a clinically validated system.
