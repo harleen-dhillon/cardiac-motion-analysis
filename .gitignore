@@ -1,0 +1,25 @@
+/MedSAM/
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Mac system files
+.DS_Store
+
+# Model checkpoints and large weights
+*.pth
+*.pt
+*.ckpt
+
+# Dataset files
+*.nii
+*.nii.gz
+*.npy
+
+# Temporary files
+.ipynb_checkpoints/
+# Medical imaging files
+*.nii
+*.nii.gz
